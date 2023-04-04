@@ -58,7 +58,7 @@ main {
     border-bottom-right-radius: 7px;
 }
 
-div {
+div#introducao {
     background-color: #4763752d;
     display: inline-block;
     padding: 7px;
@@ -69,7 +69,7 @@ div {
     border-bottom-right-radius: 14px;
 }
 
-div > p {
+div#introducao > p {
     text-align: justify;
     text-indent: 32px;
     font-family: var(--fonte-padrao);
@@ -132,6 +132,20 @@ a {
 a:hover {
     background-color: var(--cor0);
     color: var(--cor3);
+}
+
+article > section > div {
+    width: 100%;
+    text-align: center;
+}
+
+article > section > div > img{
+    max-width: 600px;
+    max-height: 670px;
+    text-align: center;
+    border-radius: 5px;
+    border: #5c342c double;
+    box-shadow: 2px 2px 4px #000000f1;
 }
 
 footer {
