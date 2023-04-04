@@ -17,10 +17,10 @@
     --cor2: #345264;
     --cor3: #111f28;*/
 
-    --cor0: #607369;
-    --cor1: #97A56C;
-    --cor2: #869BA8;
-    --cor3: #2B485C;
+    --cor0: #56665e;
+    --cor1: #8b9761;
+    --cor2: #728692;
+    --cor3: #111f28;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'Kanit', sans-serif;
@@ -168,7 +168,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 17px;
 }
 
 ::-webkit-scrollbar-track {
@@ -176,6 +176,6 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 30px;
-    background-color: var(--cor1);
+    border-radius: 25px;
+    background-color: var(--cor3);
 }
