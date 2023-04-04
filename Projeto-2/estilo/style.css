@@ -10,10 +10,17 @@
 }
 
 :root {
-    --cor0: #5c342c;
+/* #413634, #5B524D, #56200E, #ECEAE1*/
+
+    /*--cor0: #5c342c;
     --cor1: #271d1e;
     --cor2: #345264;
-    --cor3: #111f28;
+    --cor3: #111f28;*/
+
+    --cor0: #607369;
+    --cor1: #97A56C;
+    --cor2: #869BA8;
+    --cor3: #2B485C;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'Kanit', sans-serif;
@@ -28,7 +35,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, var(--cor2), #948989ef, var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor0));
     background-attachment: fixed;
 }
 
@@ -59,7 +66,7 @@ main {
 }
 
 div#introducao {
-    background-color: #4763752d;
+    background-color: #97a56c9a; /*#4763752d*/
     display: inline-block;
     padding: 7px;
     margin: 30px;
@@ -85,7 +92,7 @@ article > section > h1 {
     font-size: 3.1vw;
     text-align: center;
     padding: 8px;
-    background-image: linear-gradient(to left, white, var(--cor3), white);
+    background-image: linear-gradient(to left, white, var(--cor0), white);
     color: #ffffff;
 }
 
@@ -95,7 +102,7 @@ article > section > h2 {
     color: #ffffff;
     padding: 8px;
     margin-top: 10px;
-    background-image: linear-gradient(to right, var(--cor2,), transparent);
+    background-image: linear-gradient(to right, var(--cor1,), transparent);
 }
 
 article > section > p {
@@ -122,16 +129,17 @@ aside > ul > li {
 }
 
 a {
-    padding: 3px;
+    padding: 2px;
     border-radius: 6px;
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
     transition-duration: 0.4s;
 }
 
 a:hover {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     color: var(--cor3);
+    text-decoration: none;
 }
 
 article > section > div {
@@ -143,7 +151,6 @@ article > section > div > img{
     max-width: 600px;
     max-height: 670px;
     border-radius: 5px;
-    border: #5c342c double;
     box-shadow: 3px 4px 5px #000000f1;
 }
 
