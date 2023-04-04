@@ -145,9 +145,10 @@ article > section > div > img{
     border-radius: 5px;
     border: #5c342c double;
     box-shadow: 3px 4px 5px #000000f1;
+}
 
-    animation: fadeInDown;
-    animation-duration: 3s;
+img:hover{
+    scale: 1.1;
 }
 
 footer {
