@@ -142,10 +142,12 @@ article > section > div {
 article > section > div > img{
     max-width: 600px;
     max-height: 670px;
-    text-align: center;
     border-radius: 5px;
     border: #5c342c double;
-    box-shadow: 2px 2px 4px #000000f1;
+    box-shadow: 3px 4px 5px #000000f1;
+
+    animation: fadeInDown;
+    animation-duration: 3s;
 }
 
 footer {
